@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5AD397BC-5D0D-446B-8C2D-9E873D80BB1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TipCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2CE50488E51927CEF1455C905B5C8A79A6603DBB</key>
+		<string>github.com:haiyongw/prework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TipCalculator/TipCalculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2CE50488E51927CEF1455C905B5C8A79A6603DBB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:haiyongw/prework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2CE50488E51927CEF1455C905B5C8A79A6603DBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2CE50488E51927CEF1455C905B5C8A79A6603DBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>prework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
