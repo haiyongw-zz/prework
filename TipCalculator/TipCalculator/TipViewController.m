@@ -7,6 +7,7 @@
 //
 
 #import "TipViewController.h"
+#import "SettingViewController.h"
 
 @interface TipViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *billTextField;
@@ -34,6 +35,7 @@
     
     // Do any additional setup after loading the view from its nib.
     [self updateValues];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings" style:(UIBarButtonItemStylePlain) target:self action:@selector(onSettingButton)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,5 +65,29 @@
     float totalAmount = billAmount + tipAmount;
     self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
     self.totalLabel.text = [NSString stringWithFormat:@"$%0.2f", totalAmount];
+}
+
+- (void)onSettingButton {
+    [self.navigationController pushViewController:[[SettingViewController alloc] init] animated:TRUE];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"view will appear");
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    int tipSettingIndex = (int)[defaults integerForKey:@"tipSetting"];
+    [self.tipControl setSelectedSegmentIndex:tipSettingIndex];
+    [self updateValues];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"view did appear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"view will disappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"view did disappear");
 }
 @end

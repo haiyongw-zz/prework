@@ -80,7 +80,7 @@
             <connections>
                 <outletCollection property="gestureRecognizers" destination="y4s-m8-LOe" appends="YES" id="SLQ-V4-068"/>
             </connections>
-            <point key="canvasLocation" x="-214" y="346"/>
+            <point key="canvasLocation" x="-464" y="309"/>
         </view>
         <tapGestureRecognizer id="y4s-m8-LOe">
             <connections>
